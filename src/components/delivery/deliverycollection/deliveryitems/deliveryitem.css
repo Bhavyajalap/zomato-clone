@@ -1,0 +1,32 @@
+.delivery-item-cover{
+    background-color: var(--primary-bg);
+  box-shadow: var(--collection-shadow);
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 10px; /* Adjust padding as needed */
+  display: flex;
+  align-items: center; /* Center the image vertically */
+}
+
+.delivery-item-image
+{
+    object-fit: cover;
+    height: 100%; /* Take the full height of the container */
+    width: 100%; /* Take the full width of the container */
+    border-radius: 8px;
+}
+
+.delivery-item-title
+{
+    font-size: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 6px;
+}
+img{
+    padding: 30px 30px;
+    height: 19px;
+    width:16px;
+    justify-content: center;
+}
